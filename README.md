@@ -1,7 +1,7 @@
 # ⚡️ Vite React Template TS
 
 ```sh
-npx degit iamyuu/vite-template-react
+npx degit iamyuu/vite-template-react#chakra
 ```
 
 ## Available Scripts
