@@ -1,0 +1,47 @@
+{
+	"name": "vite-template-react",
+	"private": true,
+	"version": "0.0.0",
+	"scripts": {
+		"# general commands": "--------------------------------------------------",
+		"cz": "git-cz",
+		"setup": "npm install && husky install",
+		"# compiler commands": "--------------------------------------------------",
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"# linter commands": "--------------------------------------------------",
+		"lint": "eslint \"**/*.{js,jsx}\"",
+		"format": "prettier --write \"./**/*.{js,jsx,css}\"",
+		"#": "--------------------------------------------------"
+	},
+	"dependencies": {
+		"react": "17.0.2",
+		"react-dom": "17.0.2"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "16.2.1",
+		"@commitlint/config-conventional": "16.2.1",
+		"@commitlint/cz-commitlint": "16.2.1",
+		"@vitejs/plugin-react": "1.0.7",
+		"commitizen": "4.2.4",
+		"eslint": "8.10.0",
+		"eslint-config-kentcdodds": "20.0.1",
+		"eslint-config-prettier": "8.5.0",
+		"eslint-import-resolver-alias": "1.1.2",
+		"eslint-plugin-import": "2.25.4",
+		"eslint-plugin-jsdoc": "37.9.6",
+		"eslint-plugin-jsx-a11y": "6.5.1",
+		"eslint-plugin-prettier": "4.0.0",
+		"eslint-plugin-react": "7.29.3",
+		"husky": "7.0.4",
+		"lint-staged": "12.3.4",
+		"prettier": "2.5.1",
+		"vite": "2.8.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/@commitlint/cz-commitlint"
+		}
+	}
+}
